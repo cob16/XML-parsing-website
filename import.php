@@ -78,21 +78,21 @@
     }
 
     //add all stock
-//    foreach($xml->stocks->children() as $stock) {
-//
-//        $id       = (int) $stock["id"];
-//        $amount   = (int) $stock["amount"];
-//        $price = (string) $stock["price"];
-//
-//        $sql = "INSERT INTO stocks($id, amount, price)
-//        VALUES ('$id', '$amount', '$price')";
-//
-//        if ($conn->query($sql) === TRUE) {
-//            echo "New record created successfully <br>";
-//        } else {
-//            echo "Error: " . $sql . "<br>" . $conn->error;
-//        }
-//    }
+   foreach($xml->stocks->children() as $stock) {
+
+       $id       = (int) $stock["id"];
+       $amount   = (int) $stock["amount"];
+       $price = (string) $stock["price"];
+
+       $sql = "INSERT INTO stocks($id, amount, price)
+       VALUES ('$id', '$amount', '$price')";
+
+       if ($conn->query($sql) === TRUE) {
+           echo "New record created successfully <br>";
+       } else {
+           echo "Error: " . $sql . "<br>" . $conn->error;
+       }
+   }
 
 
     $conn->close();
