@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<stevesshop>
+
+	<products>
+		<product id="1" name="Spade" price="12.50" description="For digging." />
+		<product id="2" name="Large Plastic Pot" price="14.00" description="To keep a large plant in." />
+		<product id="3" name="Plastic Pots" price="99" description="Lots of small plastic pots." />
+		<product id="4" name="Large Plastic Pot" price="34.25" description="Keep large plants in style." />
+		<product id="6" name="Rake" price="28.50" description="A nice rake." />
+		<product id="7" name="Miracle Grow" price="8.99" description="Make your plants flourish." />
+		<product id="8" name="Strimmer" price="14000" description="To those edges." />
+		<product id="9" name="Pick" price="1420" description="Strong pick for all conditions." />
+		<product id="99" name="Gnome" price="250" description="Small happy looking chap." />
+		<product id="10" name="Fountain" price="75.6" description="Great for ponds." />
+		<product id="5" name="Small Clay Pot" price="963" description="Handy pot for any windowsill." />
+	</products>
+
+	<stocks>
+		<stock id="1" amount="242" price="pounds" />
+		<stock id="2" amount="11" price="pounds" />
+		<stock id="3" amount="56" price="pence" />
+		<stock id="4" amount="36" price="pounds" />
+		<stock id="5" amount="146" price="pence" />
+		<stock id="6" amount="302" price="pounds" />
+		<stock id="7" amount="81" price="pounds" />
+		<stock id="8" amount="23" price="pence" />
+		<stock id="9" amount="846" price="pence" />
+		<stock id="11" amount="32" price="pence" />
+		<stock id="99" amount="6" price="pence" />
+		<stock id="10" amount="47" price="pounds" />
+		<stock id="50" amount="42" price="pence" />
+	</stocks>
+
+	<categories>
+
+		<category name="Pots">
+			<product name="Large Plastic Pot" />
+			<product name="Plastic Pots" />
+			<product name="Large Plastic Pot" />
+			<product name="Small Clay Pot" />
+		</category>
+
+		<category name="Garden Tools">
+			<product name="Spade" />
+			<product name="Rake" />
+			<product name="Pick" />
+		</category>
+
+		<category name="Lawn Products">
+			<product name="Miracle Grow" />
+			<product name="Lawn Mower" />
+			<product name="Strimmer" />
+		</category>
+
+		<category name="Ornaments">
+			<product name="A Rock" />
+			<product name="Fountain" />
+			<product name="Gnome" />
+		</category>
+
+	</categories>
+
+</stevesshop>
